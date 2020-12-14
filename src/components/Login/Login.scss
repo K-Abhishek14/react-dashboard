@@ -1,0 +1,28 @@
+.login-page {
+    background-color: var(--Background-Main);
+    height: 100vh;
+}
+
+.login-page-box {
+    width: 400px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    padding-top: 10px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.login-header {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-btn{
+    text-align: center;
+    padding-right: 40px;
+}
