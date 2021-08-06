@@ -1,11 +1,34 @@
-import React from 'react'
+import React from 'react';
+import {
+  
+  Layout,
+  
+} from 'antd';
+ 
+import './Dashboard.scss';
+ 
+import { connect } from 'react-redux';
+ 
 
-const Dashboard = () => {
+ 
+
+
+class Dashboard extends React.Component {
+  
+  constructor(props) {
+    super(props)
+  }
+  
+   
+
+  render() {
     return (
-        <div>
-            <h1>DASHBOARD</h1>
-        </div>
-    )
+      <Layout>
+        <h1>Hello Dashboard</h1>
+        
+      </Layout>
+    );
+  }
 }
 
-export default Dashboard
+export default connect(null, )(Dashboard);
